@@ -1,0 +1,257 @@
+body{
+    height: 680px;
+}
+
+.perfil{
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
+.perfil h4{
+  padding-left: 15px;
+  display: inline !important;
+  color: #505153;
+  
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    transition: 0.1s;
+    text-align:left;
+  }
+  
+  .sidenav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #3d3d3d;
+    display: block;
+   
+  }
+  .sidenav a:hover{
+    color: #ebac00;
+  }
+  
+  .sidenav .closebtn {
+    color: #ebac00;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    margin-top: 10px
+  }
+
+  /* PÁGINA PROMOÇÕES */
+  .carousel-item{
+    width: 240px;
+  }
+  .card{
+    color: #505153;
+    border-radius: 15px;
+    border: none !important;
+    width: 240px;
+  }
+  .card img{
+    width: 220px;
+    height: 140px;
+    border-radius: 10px;
+  }
+ .card h6{
+   margin-top: 8px;
+ }
+ .card p{
+   color: #505153c0;
+  padding-bottom: 10px;
+}
+  .nav-promocoes{
+    background-color: rgb(240, 240, 240);
+    text-align: center !important;
+    padding: 35px;
+    border-bottom: 1px solid #3d3d3d1e;
+  }
+  .nav-promocoes span{
+    color: #505153 !important;
+    text-align: center !important;
+    position: fixed;
+     left: 0;
+     top: 28px;
+     width: 100%;
+     color: white;
+     text-align: center;
+  }
+  .nav-infos{
+    background-color: rgb(240, 240, 240);
+    text-align: center !important;
+  }
+  .nav-infos span{
+   color: #505153 !important;
+   text-align: center !important;
+   position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
+  .empresas{
+    margin-top: 10px;
+    background-color: white;
+  }
+  .empresas div{
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    padding-bottom: 20px !important;
+    text-align: center;
+  }
+  .empresas div img{
+    border-radius: 5px;
+    text-align: center;
+  }
+  .empresas h4 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #505153;
+    font-size: 1.4rem;
+  }
+ /* Fim páigna promoções */
+
+
+  /* HEADER */
+  .bg_header{
+      background-image: url(../imgs/background.jpg);
+      width: auto;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  #image {
+      position: absolute;
+      margin-bottom: 15px;
+  }
+  #texto {
+    position: relative;
+    font-size: 18px;
+    color: white;
+    margin-top: 5px;
+  }
+  #header{
+      height: 280px;
+  }
+  #header h2{
+    text-align: right ;
+    color: white;
+    font-size: 1.9rem;
+  }
+  #header a{
+    text-align: left !important;
+    font-size: 35px;
+    float: left;
+  }
+  #header hr{
+    border-top: 3px solid white;
+    color: white !important;
+    
+  }
+  .logo{
+    text-align: right;
+    display: block !important;
+  }
+  .logo h2{
+      
+      text-align: right !important;
+      padding-top: 8px;
+  }
+  /* FIM DA HEADER  */
+.btn-home{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+/* CONTEÚDO */
+.infos{
+    text-align: center;
+}
+.infos span{
+    color: #505153;
+}
+.infos a{
+    color: #ebac00;
+    text-decoration: underline;
+}
+.bg_home{
+  background-image: url(../imgs/BG_home.png);
+  width: 100%;
+  background-repeat: repeat-x;
+  padding-bottom: 55px;
+}
+
+/* FOOTER */
+.footer {
+    border-top: 1px solid #3d3d3d1e;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
+  .footer label{
+    display: inline-block;
+    margin-bottom: 0px !important;
+    color: #505153;
+  }
+
+    .navbar-footer{
+        text-align: center;
+    }
+    .navbar-footer a{
+        font-size: 18px;  
+    }
+    .navbar-footer label{
+        font-size: 16px; 
+    }
+    .navbar-brand{
+        display: inline-block !important;
+        padding-top: 0 !important; 
+        padding-bottom: 0 !important; 
+        margin-right: 0 !important; 
+        font-size: 1.25rem !important;
+        line-height: inherit !important;
+        white-space: nowrap !important;
+    }
+       /* ALTERAÇÃO DE COR DOS ÍCONES SVG DO NAVBAR FOOTER */
+    #id_promo label{
+      color: #ebac00;
+    }
+    #id_promo svg path{
+        fill: #ebac00;
+      }
+    #id_home label{
+        color: #505153
+    }
+    #id_home svg path{
+        fill: #505153;
+    }
+    #id_home svg circle{
+      fill: #505153;
+  }  
+    
+/* FIM DO FOOTER */
+
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  @media only screen and (max-width: 769px) {
+    .bg_home{
+        background-image: url(../imgs/BG_home.png);
+        width: 100%;
+        background-repeat: repeat-x;
+        padding-bottom: 15px;
+    }
+  }
